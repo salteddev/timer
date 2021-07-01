@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="clock">
+            <div class="clock-header">
+                <h1>Самое время...</h1>
+                <h2></h2>
+            </div>
+            <div class="main-clock">
+                <h2>Время</h2>
+            </div>
+            <div class="inputs">
+                <div class="input-item">
+                    <h3>Работа</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input min="00" max="24" id="work-from" type="number">
+                        <p>До</p>
+                        <input min="00" max="24"  id="work-to" type="number">
+                    </div>
+                </div>
+                <div class="input-item">
+                    <h3>Сон</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input  min="00" max="24" id="sleep-from" type="number">
+                        <p>До</p>
+                        <input  min="00" max="24" id="sleep-to" type="number">
+                    </div>
+                </div>
+                <div class="input-item">
+                    <h3>Спортзал</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input  min="00" max="24" id="gym-from" type="number">
+                        <p>До</p>
+                        <input  min="00" max="24" id="gym-to" type="number">
+                    </div>
+                </div>
+                <div class="input-item">
+                    <h3>Завтрак</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input  min="00" max="24" id="breakfast-from" type="number">
+                        <p>До</p>
+                        <input  min="00" max="24" id="breakfast-to" type="number">
+                    </div>
+                </div>
+                <div class="input-item">
+                    <h3>Обед</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input  min="00" max="24" id="dinner-from" type="number">
+                        <p>До</p>
+                        <input  min="00" max="24" id="dinner-to" type="number">
+                    </div>
+                </div>
+                <div class="input-item">
+                    <h3>Ужин</h3>
+                    <div class="input-wrapper">
+                        <p>C</p>
+                        <input  min="00" max="24" id="supper-from" type="number">
+                        <p>До</p>
+                        <input  min="00" max="24" id="supper-to" type="number">
+                    </div>
+                </div>
+            </div>
+            <button id="get">Узнать</button>
+        </div>
+    </div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
