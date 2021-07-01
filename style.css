@@ -20,7 +20,7 @@ section{
     justify-content: center;
 }
 .container{
-    max-width: 720px;
+    max-width: 420px;
     width: 100% ;
 }
 .clock{
@@ -46,9 +46,9 @@ section{
 .input-item{
     border: 2px solid #393E46;
     border-radius: 8px;
-    width: 24%;
-    margin: 10px;
-    padding: 20px;
+    width: 26.15%;
+    margin: 7px;
+    padding: 5px;
 }
 .input-item h3{
     text-align: center;
@@ -60,8 +60,8 @@ section{
 }
 input[type='number']{
     width: 100%;
-    margin: 0 5px;
-    height: 30px;
+    margin: 0 2px;
+    height: 25px;
     text-align: center;
     font-size: 22px;
     outline: 0;
